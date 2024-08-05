@@ -2,3 +2,21 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    --cor-fundo:#00af54;
+    --cor-letras:#ffde59;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-letras);
+    font-size: 36px;
+}
+
+.secao{
+    text-align: center;
+    padding: 25px;
+}
+.secao2-texto, .texto{
+    padding:auto 25px;
+    margin-left: 30px;
+}
